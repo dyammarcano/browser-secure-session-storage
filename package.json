@@ -1,0 +1,21 @@
+{
+  "name": "secure-storage",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "build:dev": "webpack --config ./webpack/dev.js",
+    "build:prod": "webpack --config ./webpack/prod.js",
+    "analyze": "webpack --config ./webpack/analyze.js"
+  },
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
